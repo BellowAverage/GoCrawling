@@ -76,7 +76,7 @@ func scrape(url string, articles chan<- Article) {
 }
 
 func writeToFile(articles <-chan Article) {
-	file, err := os.Create("articles.jsonl")
+	file, err := os.Create("articles_go.jsonl")
 	if err != nil {
 		log.Fatalf("Could not create file: %v", err)
 	}
