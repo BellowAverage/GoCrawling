@@ -1,5 +1,3 @@
-# README.md
-
 ## Web Scraping Wikipedia Articles on Intelligent Systems and Robotics
 
 ### Description
